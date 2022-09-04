@@ -16,7 +16,6 @@ from the project directory
 
 
 
-![image](https://user-images.githubusercontent.com/69040157/188334495-e514d68a-b2d8-42cf-9f2f-19701851b010.png)
 ![image](https://user-images.githubusercontent.com/69040157/188334608-e835b72e-4078-435c-8657-55077568936a.png)
 ![image](https://user-images.githubusercontent.com/69040157/188334528-1d2a8fb3-a9fc-48c7-b081-10647ac26c36.png)
 ![image](https://user-images.githubusercontent.com/69040157/188334557-cb6826bb-ff7d-4634-ba1b-ab1bcfb88f39.png)
