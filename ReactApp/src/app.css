@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Press Start 2P', cursive;
+    src: url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+ }
+ 
+
+#app{
+    /* display: grid; */
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid green; */
+    background-color: black;
+}
+
+#top{
+    width : 100%;
+    height: 120px;
+    background-color: white;
+    /* border: 2px solid blue; */
+}
+
+#eatwell{
+    display: inline-block;
+    color : black;
+    background-color : white;
+    width : 30%;
+    height: 100%;
+    text-align : center;
+
+    overflow: hidden;
+}
+#logo{
+    /* font-family: 'Press Start 2P', cursive; */
+
+    display :block;
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%);
+    text-shadow: 2px 2px gray;
+    font-size:  xx-large;
+}
+
+#tabs{ 
+    border:0px;
+    position: relative;
+    bottom: 55%;
+    transform: translate(0%,50%);
+    display: inline-block;
+    width: 70%;
+    height:max-content;
+    /* padding: 0%; */
+    /* margin: 0%; */
+    /* background-color: red; */
+
+}
+
+a.tab{
+    text-decoration: none;
+    height: 100%;
+    display: inline-block;
+    width: 30%;
+    color: black;
+    /* background-color: violet; */
+    text-align: center;
+    /* overflow: hidden; */
+    position: relative;
+    left: 5%;
+    
+    /* transform: translate(-50%,0%); */
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+a.tab:hover{
+    font-size: large;
+    color: white;
+    background-color: black;
+    /* background-color: black; */
+    /* border: 2px solid black; */
+    /* box-shadow: 10px 10px 15px black; */
+    /* text-shadow: 3px 3px 3px black; */
+    width: 32%; 
+    /* top: 2px; */
+    /* overflow:hidden; */
+    /* transform: translate(-50%,0%); */
+    /* position: relative; */
+    /* left: 10%; */
+
+}
+#imgquo{
+    width: 100%;
+    position: relative;
+    height: 70%;
+    /* border: 2px solid purple; */
+}
+#imgquo img{
+        /* position: absolute; */
+        width: 100%;
+        height: 100%;
+}
+
+#quote{ 
+        /* text-align: center; */
+        font-size: 35px;
+        position: absolute;
+        left: 25%;
+        top: 45%;
+        /* transform: translate(-50%, -50%); */
+        background-color: white;
+
+}
+
+#bottomfirst{ position: relative;
+    /* background-color: ; */
+    /* border: solid; */
+    width : 100% ;
+    height: 70%;
+    color: white;
+    
+}
+
+#bottomfirst h1 {text-align: center;
+                    text-shadow: 2px 2px gray;}
+#bottomfirst h2 {text-align: center; text-shadow: 2px 2px gray;
+}
+#bottomfirst p {text-align: center; text-shadow: 2px 2px 2px ;
+/* border: solid; */
+}
+
+
+
+#carddiv{
+        text-align: center;
+        position: relative;
+        /* border: blue 1px solid ; */
+        width: 100%;
+        height: 70%; 
+        overflow: scroll;
+      
+
+}
+
+.cards{ 
+    position: relative;
+        top: 10%;
+       box-sizing: content-box;
+       border:  2px groove pink ;
+       
+       display: inline-block ;
+       width : 18.7%;
+       height: 200px ; 
+       /* margin: 4.38px; */
+       text-align: center;
+       overflow: hidden ;
+       }
+
+    /* div.cards h1{
+        height: 25%;
+    } */
+
+    div.cards div{
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 45%;
+            left: 15%;
+            width: 70%;
+            height: 50%;
+            color: white;
+            overflow: scroll;
+            /* border: solid gold 1px; */
+    }
+    div.cards h3{color: maroon;}
+    
+#bottomsecond{
+/* border: 5px solid orchid; */
+color: white;
+background-image: url(https://999wallpaper.com/wp-content/uploads/2022/05/Super-beautiful-black-background-image.jpg);
+}
+
+div#bottomsecond > h1{
+    top: 15px;
+    text-align: center;
+    color: maroon;
+    /* border: 1px solid black; */
+}
+
+div#Bcarddiv{
+    /* border: 2px solid darkblue; */
+    text-align: center;
+
+}
+
+.Bcards{ position: relative;
+    top: 20px;
+    font-style:italic;
+    color: white;
+    /* left: 1.9%; */
+    /* transform: translate(-50%); */
+    display: inline-block ;
+   box-sizing: border-box;
+   /* border:  5px solid pink ; */
+   width : 13.15% ;
+   height: 200px ; 
+   margin: 3px;
+   /* text-align: center; */
+   overflow: scroll;
+   }
+
+   .Bcards > h1{
+        /* text-shadow: 2px 2px 2px; */
+         position: relative;
+         /* top: 500px; */
+         /* left: 100px; */
+        /* text-align: center; */
+        height: 70%;
+        width: 90%;
+    /* overflow: scroll; */
+   }
+
+   #crave{
+        /* border: 2px solid darkred; */
+        color: white;
+    }
+
+#crave > h1{
+    text-shadow: 2px 2px;
+    text-align: center;
+
+}
+#p1{text-align: center;
+font-size: large;
+font-style: normal;}
+
+#p2{
+    margin-bottom: 0%;
+}
+
+#calorid{
+    color: white;
+border: 2px groove gray;
+height: 200px;
+/* text-align: center; */
+position: relative;
+/* top: 50px;} */
+}
+
+/* #caloriid > f{top: 50px;} */
+    #foodsdiv{
+/* text-align: center; */
+    border: 2px solid white;
+    /* left: 100px; */
+    width : 20%;
+    max-height: 200px;
+    height: 50px;
+    overflow: scroll;
+    /* display: block; */
+}
+
+.forcsshand:hover{
+        cursor: pointer;
+
+}
